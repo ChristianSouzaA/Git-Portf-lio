@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'photograph_signatureregular';
+    src: url('../fonts/photograph_signature-webfont.woff2') format('woff2'),
+         url('../fonts/photograph_signature-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: #363636;
+}
+
+#menu{
+    margin-top: 8%;
+    font-size: 180%;
+}
+
+#img{
+    margin-left: 4.5%;
+}
+
+p{
+    margin-top: 50%;
+    text-align: center;
+    margin-left: 6.5%;
+    font-size: large;
+    color: #c5c5c5;
+}
+
+.espaço{
+    margin-top: 15%;
+}
+
+#linha{
+    background: #1665c5;
+}
+.Nome{ 
+    font-family: 'photograph_signatureregular';
+    font-size: 60px;
+    color: #ffffff;
+}
+
+h4{
+    color: #c5c5c5;
+}
+
+.rede{
+    margin-left: 48%;
+    color: #c5c5c5;
+}
+
+#li{
+    background-color:#363636;
+}
+
+#service-1 p {
+    margin-top: 5%;
+}
+
+#service-2 p {
+    margin-top: 5%;
+}
+
+#service-3 p {
+    margin-top: 5%;
+}
+
+.redes-sociais{
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+#whatsapp{
+    position:fixed;
+    margin-left: 95%;
+    margin-top: 10%;
+}
+
+.rodape{
+    width: 100%;
+    height: 180px;
+    background: #080808;
+}
+
+.menu-rodape ul {
+    margin-top: 4px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.menu-rodape li {
+    display: inline-block;
+    text-align: center; 
+}
+
+.menu-rodape a {
+    color: #464444;
+}
+.direitos{
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 3%;
+    color: #c5c5c5;
+}
+
+.dev{
+    text-align: center;
+    margin-left: 3%;
+    color: #c5c5c5;
+}
+
+#X{
+    animation: rotation 20s linear infinite;
+    mask-repeat: repeat-x repeat-y;
+}
+@keyframes rotation {
+    100% {transform: rotate(360deg)}
+}
+
+#X-1{
+    margin-left:55%;
+    animation: rotation 15s linear infinite;
+    mask-repeat: repeat-x repeat-y;
+}
+@keyframes rotation {
+    100% {transform: rotate(600deg)}
+}
