@@ -1,0 +1,39 @@
+//cria nosso tema
+$my-color-0: #dae2ce;
+$my-color-1: #acf43e;
+$my-color-2: #aae243;
+$my-color-3: #6ab547;
+$my-color-4: #628b48;
+$my-color-5: #5b37ec;
+$my-color-6: #32009d;
+$my-color-7: #5b33b1;
+$my-color-8: #343A40;
+$my-color-9:#efac1f;
+
+$theme-colors:(
+    'my-color-0': $my-color-0,
+    'my-color-1': $my-color-1,
+    'my-color-2': $my-color-2,
+    'my-color-3': $my-color-3,
+    'my-color-4': $my-color-4,
+    'my-color-5': $my-color-5,
+    'my-color-6': $my-color-6,
+    'my-color-7': $my-color-7,
+    'my-color-8': $my-color-8,
+    'my-color-9': $my-color-9,
+);
+
+//classes personalizadas
+
+$body-bg: $my-color-0;
+$navbar-color: $my-color-9;
+$link-color: $my-color-7;
+$card-bg: $my-color-4;
+$card-color: $my-color-2;
+$border-color: $my-color-8;
+
+// importa o bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+
